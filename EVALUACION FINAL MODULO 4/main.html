@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi Primer App con Fetch</title>
+
+    <link href="https://jsdelivr.net" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="contenedor">
+      <h1>Panel de Administración</h1>
+      <p>
+        Abre la consola del navegador (F12) y presiona los botones para ver los
+        resultados:
+      </p>
+
+      <div class="zona-botones">
+        <button onclick="admin.listarTodos()">
+          1. Listar todos los usuarios
+        </button>
+        <button onclick="admin.buscarPorId()">2. Buscar usuario por ID</button>
+      </div>
+    </div>
+
+    <script src="https://jsdelivr.net"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
